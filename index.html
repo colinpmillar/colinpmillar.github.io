@@ -27,7 +27,7 @@ title: Colin Millar
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
-    <span class="date">{{ post.date }}</span>
+    <span class="meta">{{ post.date | date_to_string }}</span>
   </p>
   <div class="content">
     {{ post.content }}

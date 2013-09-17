@@ -1,5 +1,6 @@
 name: Colin Millar
 markdown: redcarpet
 pygments: true
+timezone: Europe/London
 paginate: 2
 paginate_path: "page:num"
